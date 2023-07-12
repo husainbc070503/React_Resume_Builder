@@ -1,0 +1,81 @@
+.resume-profile {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.resume-profile>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Typography.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Typography.qualities {
+    font-size: 26px;
+    color: #2B2A4C;
+}
+
+.Typography.summary {
+    color: #2d435687;
+    text-align: justify;
+}
+
+.Typography.credentials {
+    font-size: 15px;
+    margin: 12px 0;
+}
+
+.details {
+    margin-top: 50px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.Typography.section-header {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.Typography.qualification,
+.Typography.org,
+.Typography.cer {
+    font-size: 18px;
+    font-weight: 400;
+    color: #001524ce;
+}
+
+.Typography.clgname,
+.Typography.pos {
+    font-size: 22px;
+    font-weight: bold;
+    color: #001C30;
+}
+
+.Typography.grey {
+    color: #9DB2BF;
+    font-size: 14px;
+}
+
+.Typography.desc {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.Button.skill-btn {
+    background: #021b2e;
+    margin: 10px;
+}
+
+.Card.card {
+    margin-bottom: 16px;
+}
+
+.Button.create-new{
+    margin-left: 20px;
+}

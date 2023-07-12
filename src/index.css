@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.line {
+  width: 50%;
+  margin: 50px auto;
+  height: 1px;
+  background: #a6b0ba;
+}
+
+.StepLabel.name {
+  font-size: 200px;
+}
+
+.form {
+  padding-top: 14px;
+  height: 66vh;
+  overflow-y: scroll;
+}
+
+.Typography.heading {
+  font-size: 30px;
+  text-align: center;
+  color: #071952;
+  font-weight: bold;
+}
+
+.FormLabel.label {
+  color: #051038;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.TableCell.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #051038;
+}
+
+.TableCell.header.align-end {
+  text-align: start;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.TableCell.capitalize {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.TableContainer.cont {
+  margin-bottom: 40px;
+}
+
+.Typography.desc {
+  text-align: justify;
+}
+
+.resume-page-container {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.resume-page-container>.resume {
+  margin-bottom: 40px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 890px) {
+  .line {
+    width: 100%;
+  }
+
+  .Typography.heading {
+    text-align: center;
+  }
+
+}
