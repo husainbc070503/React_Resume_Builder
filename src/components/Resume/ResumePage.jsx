@@ -6,12 +6,12 @@ import {
   CardHeader,
   Container,
   Grid,
+  Link,
   Typography,
 } from "@mui/material";
 import React from "react";
 import { useGlobalContext } from "../../contexts/ResumeContext";
 import "./ResumePage.css";
-import { Link } from "react-to-pdf";
 
 const ResumePage = () => {
   const {

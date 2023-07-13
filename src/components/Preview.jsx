@@ -1,4 +1,4 @@
-import React, { createRef, useState } from "react";
+import React, { createRef } from "react";
 import Pdf from "react-to-pdf";
 import { useGlobalContext } from "../contexts/ResumeContext";
 import { Button } from "@mui/material";
@@ -11,7 +11,7 @@ const options = {
   format: [12, 10],
 };
 
-const Resume = () => {
+const Preview = () => {
   const {
     formValues: {
       personal: { firstname, lastname },
@@ -56,4 +56,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Preview;

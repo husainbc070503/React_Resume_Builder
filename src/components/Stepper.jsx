@@ -14,7 +14,7 @@ import WorkExperience from "./Forms/WorkExperience";
 import Skills from "./Forms/Skills";
 import Projects from "./Forms/Projects";
 import Certificates from "./Forms/Certificates";
-import Resume from "./Resume";
+import Preview from "./Preview";
 
 const steps = [
   "Personal Details",
@@ -75,7 +75,7 @@ const ResumeForm = () => {
   return (
     <Box sx={{ width: "100%" }}>
       {activeStep === steps.length ? (
-        <Resume />
+        <Preview />
       ) : (
         <Grid container spacing={2} alignItems="flex-start">
           <Grid item md={2} xs={12}>
